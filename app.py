@@ -2,8 +2,8 @@ import gradio as gr
 from llama_cpp import Llama
 
 # بيانات الموديل من Hugging Face
-REPO_ID = "Alnabilali1/syper_alnabilali_2025"
-MODEL_FILE = "unsloth.F16.gguf"
+REPO_ID = "Alnabilali1/alnabil_ali_2025"
+MODEL_FILE = "unsloth.Q2_K.gguf"
 
 # تحميل الموديل عند التشغيل
 llm = Llama.from_pretrained(
